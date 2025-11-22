@@ -1,6 +1,6 @@
 <template>
   <section
-    class="px-4 md:px-0 bg-[url(/image/hero.svg)] md:h-[550px] bg-cover bg-center bg-no-repeat text-white py-5"
+    class="px-4 h-[760px] md:px-0 bg-[url(/image/hero.svg)] md:h-[650px] bg-cover bg-center bg-no-repeat text-white py-5"
   >
     <div
       class="flex flex-col justify-center text-center items-center gap-4 h-full"
@@ -45,10 +45,6 @@
         <TecnologiaChips title="Node">
           <IconsNode />
         </TecnologiaChips>
-      </div>
-
-      <div class="mt-4 md:mt-20">
-        <IconsDown class="animate-[upDown_1.2s_ease-in-out_infinite]" />
       </div>
     </div>
   </section>
