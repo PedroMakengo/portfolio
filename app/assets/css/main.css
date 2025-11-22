@@ -1,1 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Maven+Pro:wght@400..900&display=swap");
+
 @import "tailwindcss";
+
+@theme {
+  --font-jetBrains: "JetBrains Mono", monospace;
+  --font-asap: "Asap", sans-serif;
+  --font-maven: "Maven Pro", sans-serif;
+}
+
+@keyframes upDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
