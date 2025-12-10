@@ -126,11 +126,11 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👤 Autor
 
-**Seu Nome**
+**PedroMakengo**
 
-- Portfolio: [seusite.com](https://seusite.com)
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- LinkedIn: [seu-perfil](https://linkedin.com/in/seu-perfil)
+- Portfolio: ([https://seusite.com](https://pedromakengo-ebon.vercel.app/))
+- GitHub: [@seu-usuario](https://github.com/pedromakengo)
+- LinkedIn: [seu-perfil](https://linkedin.com/in/pedro-makengo-32ab0a1a0)
 - Email: seu.email@example.com
 
 ## 🤝 Contribuindo
