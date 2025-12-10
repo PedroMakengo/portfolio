@@ -8,7 +8,6 @@ Meu portfolio pessoal desenvolvido com Nuxt.js, apresentando meus projetos, habi
 - 📝 Blog integrado para posts técnicos e artigos
 - 💼 Showcase de projetos e trabalhos realizados
 - 🛠️ Stack de tecnologias utilizadas
-- 📬 Formulário de contato
 - ⚡ Performance otimizada com SSR/SSG
 - 🌙 Tema claro/escuro (opcional)
 
