@@ -128,10 +128,10 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 **PedroMakengo**
 
-- Portfolio: ([https://seusite.com](https://pedromakengo-ebon.vercel.app/))
-- GitHub: [@seu-usuario](https://github.com/pedromakengo)
-- LinkedIn: [seu-perfil](https://linkedin.com/in/pedro-makengo-32ab0a1a0)
-- Email: seu.email@example.com
+- Portfolio: ([https://pedromakengo-ebon.vercel.app](https://pedromakengo-ebon.vercel.app/))
+- GitHub: [@pedromakengo](https://github.com/pedromakengo)
+- LinkedIn: [pedro-makengo-32ab0a1a0](https://linkedin.com/in/pedro-makengo-32ab0a1a0)
+- Email: devmakengo2021@gmail.com
 
 ## 🤝 Contribuindo
 
