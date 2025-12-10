@@ -33,13 +33,13 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-portfolio.git
+git clone https://github.com/pedromakengo/portfolio.git
 ```
 
 ### 2. Acesse a pasta do projeto
 
 ```bash
-cd seu-portfolio
+cd portfolio
 ```
 
 ### 3. Instale as dependências
