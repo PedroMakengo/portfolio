@@ -17,3 +17,22 @@
     transform: translateY(10px);
   }
 }
+.typing {
+  width: 0;
+  animation: typing 2.5s steps(13, end) forwards, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 13ch;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

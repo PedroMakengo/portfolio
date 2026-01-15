@@ -11,9 +11,19 @@
         alt=""
       />
       <div class="flex flex-col gap-2">
-        <h4 class="text-gray-500 font-jetBrains">
-          Hello World! Meu nome é
-          <span class="text-red-400">Pedro Makengo</span> e sou
+        <h4
+          class="text-gray-500 text-center font-jetBrains flex items-center justify-center gap-1"
+        >
+          <span>Hello World! Meu nome é</span>
+
+          <span
+            ref="typingEl"
+            class="inline-block overflow-hidden whitespace-nowrap border-r-2 border-red-400 text-red-400 typing"
+          >
+            Pedro Makengo
+          </span>
+
+          <span>e sou</span>
         </h4>
         <h1 class="font-bold text-3xl md:text-5xl font-asap">
           Desenvolvedor Fullstack
@@ -49,3 +59,26 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+import { ref, onMounted, onBeforeUnmount } from "vue";
+
+const typingEl = ref<HTMLElement | null>(null);
+let interval: number;
+
+const restartTyping = () => {
+  if (!typingEl.value) return;
+
+  typingEl.value.classList.remove("typing");
+  void typingEl.value.offsetWidth; // força reflow
+  typingEl.value.classList.add("typing");
+};
+
+onMounted(() => {
+  interval = window.setInterval(restartTyping, 3500);
+});
+
+onBeforeUnmount(() => {
+  clearInterval(interval);
+});
+</script>

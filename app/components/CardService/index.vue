@@ -5,11 +5,11 @@
     <slot></slot>
     <div class="flex flex-col mt-6 gap-1">
       <h4 class="text-white font-asap font-bold text-lg">
-        Websites e Aplicativos
+        {{ title }}
       </h4>
-      <span class="text-[#C0C4CE] font-maven font-regular text-sm"
-        >Desenvolvimento de interfaces</span
-      >
+      <span class="text-[#C0C4CE] font-maven font-regular text-sm">{{
+        description
+      }}</span>
     </div>
   </div>
 </template>

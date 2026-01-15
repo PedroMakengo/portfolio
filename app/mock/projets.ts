@@ -1,22 +1,26 @@
 export default [
   {
-    img: "/image/1.png",
-    title: "Travelgram",
-    slug: "travelgram",
+    img: "/image/calutecno.gif",
+    title: "Calutecno",
+    slug: "calutecno",
+    to: "https://calutecno.ao/",
     description:
-      "Rede social onde as pessoas mostram os registros de suas viagens pelo mundo",
+      "Calutecno é uma empresa especializada em soluções digitais personalizadas, consultoria estratégica e desenvolvimento de ponta para acelerar o crescimento da sua empresa.",
   },
   {
-    img: "/image/2.png",
-    title: "Tech News",
-    slug: "tech-news",
-    description: "Homepage de um portal de notícias sobre a área de tecnologia",
+    img: "/image/ellonet.gif",
+    title: "Ellonet",
+    slug: "ellonet",
+    to: "https://ellonet.ao/",
+    description:
+      "É uma empresa que oferece serviços de Hospedagem de sites em servidores ultra-rápidos e suporte 24/24, com diversos planos acessíveis para diferentes necessidades, além de venda.",
   },
   {
-    img: "/image/3.png",
-    title: "Página de receita",
-    slug: "pagina-de-receita",
-    description: "Página com o passo a passo de uma receita para cupcakes",
+    img: "/image/kardia.gif",
+    title: "KardiaSPA",
+    slug: "kardia-spa",
+    description:
+      "KARDIASPA – De Coração para Coração: clínica em Luanda especializada em estética avançada, fisioterapia e tratamento de queloides. nosso dever é  cuidar da sua pele, saúde e bem-estar.",
   },
   {
     img: "/image/4.png",
