@@ -12,7 +12,7 @@
       />
       <div class="flex flex-col gap-2">
         <h4
-          class="text-gray-500 text-center font-jetBrains flex items-center justify-center gap-1"
+          class="text-gray-500 text-center font-jetBrains flex flex-col lg:flex-wrap items-center justify-center gap-1"
         >
           <span>Hello World! Meu nome é</span>
 
