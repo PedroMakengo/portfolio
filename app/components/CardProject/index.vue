@@ -1,5 +1,8 @@
 <template>
-  <NuxtLink :to="`/${link}`" class="bg-[#292C34] rounded-xl p-4">
+  <NuxtLink
+    :to="`/${link}`"
+    class="bg-[#292C34] rounded-xl p-4 hover:scale-105 transition-transform duration-200 ease-in-out block"
+  >
     <img :src="`${image}`" class="w-full" :alt="title" />
 
     <div class="mt-4">

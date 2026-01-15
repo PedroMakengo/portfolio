@@ -19,6 +19,7 @@ export default [
     img: "/image/kardia.gif",
     title: "KardiaSPA",
     slug: "kardia-spa",
+    to: "https://kardiaspa.ao/",
     description:
       "KARDIASPA – De Coração para Coração: clínica em Luanda especializada em estética avançada, fisioterapia e tratamento de queloides. nosso dever é  cuidar da sua pele, saúde e bem-estar.",
   },

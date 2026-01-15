@@ -21,7 +21,8 @@
           :title="element.title"
           :description="element.description"
           :key="index"
-          :link="`/`"
+          target="_blank"
+          :link="`/${element.to}`"
         />
       </div>
     </section>
